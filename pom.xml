@@ -48,13 +48,6 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- Dotenv: carrega variáveis do arquivo .env automaticamente -->
-        <dependency>
-            <groupId>io.github.cdodd</groupId>
-            <artifactId>spring-boot-dotenv</artifactId>
-            <version>3.1.0</version>
-        </dependency>
-
         <!-- Lombok (menos código boilerplate) -->
         <dependency>
             <groupId>org.projectlombok</groupId>
