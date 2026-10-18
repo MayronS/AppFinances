@@ -8,6 +8,7 @@ WORKDIR /build
 
 # Copia apenas o pom primeiro para cachear dependências
 COPY pom.xml .
+RUN mvn dependency:go-offline -B -q
 
 # Copia o restante e compila
 COPY src ./src
